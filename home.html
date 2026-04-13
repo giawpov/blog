@@ -32,7 +32,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="blog.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
                 </ul>
             </div>
         </div>
@@ -108,7 +108,7 @@
         .catch(err => {
             console.error('Error:', err);
             document.getElementById('blog-container').innerHTML = `
-                <p class="p-5 opacity-50">Gagal memuat konten. Pastikan file <strong>posts.json</strong> berada di folder yang sama dengan file HTML ini.</p>
+                <p class="p-5 opacity-50">Gagal memuat konten.</p>
             `;
         });
 </script>
